@@ -55,11 +55,11 @@ let data = [
 
      function arrayLoop () {
     for (i = 0; i <= 10; i++) {
-        console.log(`i is ${i}`);
+        console.log(`i is ${data[i]}`);
     }
 },
     ];
-console.table(data[5]());
+console.table(data);
 console.log(learnStaff[3]());
 
 //<----updating existing items----->
@@ -74,4 +74,5 @@ learnStaff.push("datagen");
 
 
 //Example 4
+data[5]()
 
