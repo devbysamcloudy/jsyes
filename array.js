@@ -51,9 +51,15 @@ let data = [
     function hy () { 
      name: "Sam" 
     },
-     [1, 2, 3]
+     [1, 2, 3],
+
+     function arrayLoop () {
+    for (i = 0; i <= 10; i++) {
+        console.log(`i is ${i}`);
+    }
+},
     ];
-console.table(data[3]());
+console.table(data[5]());
 console.log(learnStaff[3]());
 
 //<----updating existing items----->
@@ -68,9 +74,4 @@ learnStaff.push("datagen");
 
 
 //Example 4
-function arrayLoop () {
-    for (i = 0; i <= 10; i++) {
-        console.log(`i is ${i}`);
-    }
-}
-arrayLoop();
+
