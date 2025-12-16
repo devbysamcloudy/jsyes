@@ -43,7 +43,7 @@ let learnStaff = [
 ];
 console.table (learnStaff);
 
-//Example 2
+//Example 2.with loop methods
 let data = [
     10,
     "hello", 
@@ -59,6 +59,7 @@ let data = [
     }
 },
     ];
+data[5]()
 console.table(data);
 console.log(learnStaff[3]());
 
@@ -67,12 +68,26 @@ console.log(learnStaff[3]());
 // by accessing them using their index and assigning
 // a new value.
 
-//Example 3
+//Example 3.pushing mesthods
 learnStaff[0] = 50;
 learnStaff[50] = "new year";
 learnStaff.push("datagen");
 
 
-//Example 4
-data[5]()
+//Example 4. Using length function
+let myVar = [
+    2000,
+    "sunny",
+    [5000,2000,6000],
+    function delta () {
+        namey: "sunny"
+        for (x =0; x<=50; x++) {
+            console.log(`x is ${myVar[x]}`);
+        }
 
+    }
+
+]
+console.log(myVar.length[3]);
+
+//E
